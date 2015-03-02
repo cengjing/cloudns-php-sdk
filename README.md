@@ -7,7 +7,7 @@ YY ClouDNS是YY游戏的DNSaaS服务，是专注于游戏运营、以及私有�
 
 ## 安装
 
-- ### Via Composer
+### Via Composer
 可以通过composer进行安装,Cloudns-php-sdk已经在[Packagist](https://packagist.org/packages/duowan/cloudns-php-sdk)上
 通过composer命令进行安装:
 ```shell
@@ -17,10 +17,10 @@ composer require  duowan/cloudns-php-sdk  dev-master
 
 
 ## 使用说明
-- ### 获得账号和token
+### 获得账号和token
 	参见  : [API文档](https://dnscp.duowan.com/download/cloudns-api-2013.11v1.2.pdf) 中的 `1.3 使用方法` 一节
 
-- ### 通过composer安装的程序	
+### 通过composer安装的程序	
 ```php
 // 引入composer提供的自动加载器
 require 'vendor/autoload.php';
@@ -53,5 +53,5 @@ $record = CloudnsSDK::record();
 $ret = $record->rec_load_all('zone.com');
 ```
 
-- ### 接口使用
+### 接口使用
 具体接口使用说明请参考 [API文档](https://dnscp.duowan.com/download/cloudns-api-2013.11v1.2.pdf) , 所有SDK中的方法名称和API文档中的方法名称一致.
