@@ -1,0 +1,30 @@
+{
+    "name": "duowan/cloudns-php-sdk",
+    "description": "Duowan ClouDNS SDK for PHP",
+    "keywords": ["duowan", "cloudns", "php" , "sdk"],
+    "type": "library",
+    "license": "",
+    "authors": [{
+        "name": "duowan",
+        "homepage" : "https://dnscp.duowan.com"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "php-curl-class/php-curl-class": "2.1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "suggest": {},
+    "autoload": {
+        "psr-4": {
+            "ClouDNS\\": "src/"
+        }
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "http://pkg.phpcomposer.com/repo/packagist/"
+    }, {
+        "packagist": false
+    }]
+}
