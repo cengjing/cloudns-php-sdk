@@ -18,7 +18,7 @@ composer require  duowan/cloudns-php-sdk  dev-master
 
 ## 使用说明
 ### 获得账号和token
-	参见  : [API文档](https://dnscp.duowan.com/download/cloudns-api-2013.11v1.2.pdf) 中的 `1.3 使用方法` 一节
+参见  : [API文档](https://dnscp.duowan.com/download/cloudns-api-2013.11v1.2.pdf) 中的 `1.3 使用方法` 一节
 
 ### 通过composer安装的程序	
 ```php
