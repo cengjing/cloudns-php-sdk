@@ -3,7 +3,7 @@ YY ClouDNS是YY游戏的DNSaaS服务，是专注于游戏运营、以及私有�
 使用高可用的服务器集群和云同步技术，保证业务访问更加稳定无忧。
 项目主页: https://dnscp.duowan.com/
 
-本项目为YY ClouDNS的PHP版本的SD
+本项目为YY ClouDNS的PHP版本的SDK
 
 ## 安装
 
