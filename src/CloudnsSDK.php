@@ -27,10 +27,7 @@ class CloudnsSDK
 
     public static function init(array $customConfig = array())
     {
-        $config = Config::get();
-        if (empty($config)) {
-            $config = include (CLOUDNS_ROOT . 'config.php');
-        }
+        $config = include (CLOUDNS_ROOT . 'config.php');
         if (! empty($customConfig)) {
             $config = array_merge($config, $customConfig);
         }
