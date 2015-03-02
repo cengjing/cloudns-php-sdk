@@ -41,11 +41,11 @@ $config = array(
 CloudnsSDK::init($config);
 // 获得user对象
 $user = CloudnsSDK::user();
-// 调用user对象中的rec_load_all方法
+// 调用user对象中的userlog_load_all方法
 $ret = $user->userlog_load_all();
 // 获得zone对象
 $zone = CloudnsSDK::zone();
-// 调用record对象中的rec_load_all方法
+// 调用record对象中的zone_load_multi方法
 $ret = $zone->zone_load_multi();
 // 获得record对象
 $record = CloudnsSDK::record();
